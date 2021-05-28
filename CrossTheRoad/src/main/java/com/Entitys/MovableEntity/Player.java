@@ -32,7 +32,7 @@ public class Player extends Entity implements MovableEntity, KeyListener {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         g.setColor(Color.BLACK);
-        g.fillRect(this.hitbox().x,this.hitbox().y, this.hitbox().width, this.hitbox().height);
+        g.fillRect(this.hitbox().x, this.hitbox().y, this.hitbox().width, this.hitbox().height);
         g.dispose();
     }
 
@@ -69,7 +69,7 @@ public class Player extends Entity implements MovableEntity, KeyListener {
     @Override
     public void keyTyped(KeyEvent e) {
         // TODO Auto-generated method stub
-        
+        System.out.println("in KT");
     }
 
     @Override

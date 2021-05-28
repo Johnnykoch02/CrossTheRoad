@@ -6,7 +6,6 @@ import java.awt.image.BufferedImage;
 
 import com.joshandjohnny.JavaApp.Constants;
 
-import org.w3c.dom.css.Rect;
 
 public abstract class Entity {
     

@@ -31,9 +31,9 @@ public class Application extends JPanel  {
     }
 	public void init() {
         
-        test = new Player(Constants.screenWidth/2, Constants.screenHeight/2);
 		this.setVisible(true);
 		this.setFocusTraversalKeysEnabled(true);
+		test = new Player(Constants.screenWidth/2, Constants.screenHeight/2);
 		this.addKeyListener(test);
 		this.setSize(Constants.screenWidth,Constants.screenHeight);		
 		running = true;
